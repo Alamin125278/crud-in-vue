@@ -27,6 +27,12 @@
       "password": "0987654",
       "name": "rohan",
       "id": 5
+    },
+    {
+      "email": "rohan@gmail.com",
+      "password": "123",
+      "name": "Rohan",
+      "id": 6
     }
   ],
   "restaurants": [
@@ -55,16 +61,16 @@
       "id": 4
     },
     {
-      "name": "Burger hutt",
-      "address": "Dhaka",
-      "contact": 6544132,
-      "id": 5
-    },
-    {
       "name": "RFC",
       "address": "Kolaroa,Satkhira",
       "contact": 32165346546,
       "id": 6
+    },
+    {
+      "name": "Burger House",
+      "address": "East NakhalPara",
+      "contact": 49080938534,
+      "id": 8
     }
   ]
 }

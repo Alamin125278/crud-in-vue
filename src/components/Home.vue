@@ -15,14 +15,12 @@
         </tr>
         <tr
           :class="
-            item.id % 2 == 0 || item.id == 0
-              ? 'bg-cyan-800 text-white'
-              : 'bg-cyan-100'
+            i % 2 == 0 || i == 0 ? 'bg-cyan-800 text-white' : 'bg-cyan-100'
           "
-          v-for="item in restaurant"
+          v-for="(item, i) in restaurant"
           :key="item.id"
         >
-          <td class="border border-solid w-40 h-10">{{ item.id }}</td>
+          <td class="border border-solid w-40 h-10">{{ i + 1 }}</td>
           <td class="border border-solid w-40 h-10">{{ item.name }}</td>
           <td class="border border-solid w-40 h-10">{{ item.contact }}</td>
           <td class="border border-solid w-40 h-10">{{ item.address }}</td>
@@ -72,16 +70,16 @@ export default {
     },
     async loadData() {
       let user = localStorage.getItem("user-info");
-      this.name = JSON.parse(user).name;
       if (!user) {
         this.$router.push({ name: "SignUp" });
       }
+      this.name = JSON.parse(user).name;
       let result = await axios.get("http://localhost:3000/restaurants");
       this.restaurant = result.data;
     },
   },
 
-  async mounted() {
+  mounted() {
     this.loadData();
   },
 };
