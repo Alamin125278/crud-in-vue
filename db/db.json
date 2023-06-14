@@ -1,0 +1,70 @@
+{
+  "users": [
+    {
+      "name": "alamin",
+      "email": "alamin12@gmail.com",
+      "password": "123ala"
+    },
+    {
+      "name": "eva",
+      "email": "eva@gmail.com",
+      "password": "eva123"
+    },
+    {
+      "name": "suraiya",
+      "email": "suraiya@gmail.com",
+      "password": "suraiya123",
+      "id": 3
+    },
+    {
+      "email": "alamin1252@gmail.com",
+      "password": "12345678",
+      "name": "alaminHossen",
+      "id": 4
+    },
+    {
+      "email": "rohan@gmail.com",
+      "password": "0987654",
+      "name": "rohan",
+      "id": 5
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Pizza Hutt",
+      "address": "Kolaroa,Satkhira",
+      "contact": 1884656568,
+      "id": 1
+    },
+    {
+      "name": "Food U",
+      "address": "Magura Sadar",
+      "contact": 18842218,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "KFC",
+      "contact": 1884221872,
+      "address": "Mirpur,Dhaka"
+    },
+    {
+      "name": "Burger Hutt",
+      "address": "dhaka",
+      "contact": 2154541231,
+      "id": 4
+    },
+    {
+      "name": "Burger hutt",
+      "address": "Dhaka",
+      "contact": 6544132,
+      "id": 5
+    },
+    {
+      "name": "RFC",
+      "address": "Kolaroa,Satkhira",
+      "contact": 32165346546,
+      "id": 6
+    }
+  ]
+}
